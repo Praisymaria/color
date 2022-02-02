@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.main{
+  border: 2px solid white;
+}
+.color{
+  display: table-cell;
+  width: 50px;
+  height: 50px;
+  margin: 0 1px;
+  cursor: pointer ;
+  border: black;
+}
+.clr1{
+  background-color: green;
+}
+.clr2{
+  background-color: purple;
+}
+.clr3{
+  background-color: blue;
+}
+.clr4{
+  background-color: red;
+}
